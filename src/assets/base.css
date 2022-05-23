@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+    color: aliceblue;
+  }
+
+  #app {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% auto;
+    grid-template-columns: 15% 1fr;
+    grid-template-areas:
+      "header header"
+      "sidenav content";
+
+  }
+
+  #header,
+  #content,
+  #sidenav,
+  #footer {
+    border: 1px solid rgb(18, 230, 113);
+  }
+
+  #header {
+    grid-area: header;
+    background-color: rgb(18, 230, 113);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #content {
+    grid-area: content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #footer {
+    grid-area: footer;
+  }
+  #sidenav {
+    grid-area: sidenav;
+    background-color: rgb(18, 230, 113);
+  }
+
+  .block {
+    min-width: 400px;
+    background-color: rgb(196, 196, 196);
+    height: 200px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 80px 0px 20px;
+    flex: 1;
+  }
+
+  .botaofoda {
+    min-width: 20px;
+    height: 3px;
+    background-color: aliceblue;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px 60px 20px 80px;
+    margin: 20px 50px 1px 20px;
+    flex: 1;
+  }
+
+  .sidenav {
+    height: 10px;
+  }
+
+  .textopesquisa {
+    padding: 10px 100px;
+    flex: 1;
+
+  }
+
+
+
+  .circle {
+    background: rgb(245, 245, 245);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+  .pesquizada {
+    padding: 10px 60px;
+    align-items: center;
+    margin-right: 10%;
+  } 
+
+.loginlindo{
+    background-color: green;
+    flex: 1;
+    padding: 5%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundologin{
+  padding: 0px 1125px 200px 200px;
+  background-color: rgb(255, 255, 255);
+  flex: 1;
+
+}
+
+.logisc{
+    padding: 20px;
+    box-shadow: 6px 6px 20px gray, -6px -6px 20px white;
+
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 100px;
+}
+
+.escritafodase{
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 220px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.botaodelogar{
+    background-color: rgb(18, 230, 113);
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 100px;
+    padding: 5px 88px 10px 88px;
+    flex: 1;
+}
+
+.rick{
+    color: black;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 225px 10px 20px;
+
+
+}
+
+.rick2{
+    color: rgb(18, 230, 113);
+    text-decoration-line: none;
+}
